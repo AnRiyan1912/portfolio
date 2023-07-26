@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: inter, sans-serif;
+    background-color: #E5F3FB;
+}
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2048;
+    background-color: rgb(61, 61, 61);   
+}
+nav .name p a {
+    color: black;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 18px;
+    background-color: #FDC435;
+    z-index: 3;
+    border-radius: 20px 40px 60px 10px;
+    box-shadow: 0px 2px 8px rgb(63, 63, 63);
+
+}
+nav .welcome img{
+    width: 100vw;
+}
+nav .navBar .links a {
+    color: #FDC435;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 14px;
+   
+}
+nav .toggle-button {
+    color: #FDC435;
+    cursor: pointer;
+    padding: 10px;
+    display: none;
+    
+}
+nav .dropdown-menu {
+    display: none;
+}
+nav .navBar a:hover{
+    background-color: #FDC435;
+    color: black;
+    
+}
+nav p a:hover{
+    background-color: white;
+    color: #FDC435;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    max-width: 2048px;
+    margin: auto;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30vh;
+    max-width: 2048px;
+    margin: auto;
+
+}
+
+.about .card-foto {
+    display: flex;
+    justify-content: right;
+    width: 100vw;
+    background-image: url(./img/yellow-bg.png);
+    border-radius: 0px 90px 0px 0px;
+    
+}
+.about .card-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw
+}
+.about .card-about a {
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+.about .card-about p a {
+    pointer-events: none;
+    cursor: default;
+    font-size: 40px;
+    font-weight: 600;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 876px;
+    margin-top: 30vh;
+    gap: 20px;
+    max-width: 768px;
+    
+}
+.projects p a{
+    pointer-events: none;
+    cursor: default;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.projects .project1 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.projects .project1 img{
+    border-radius: 20px;
+}
+.projects .project1 .text-project {
+    
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+    letter-spacing: 0.3px
+ 
+}
+.projects .project1 .text-project a{
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #FDC435;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+.projects .project1 .text-project a:hover{
+    background-color: black ;
+    color: #FDC435;
+}
+
+.projects .project2 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.projects .project2 img{
+    border-radius: 20px;
+}
+.projects .project2 .text-project {
+    
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+    letter-spacing: 0.3px
+ 
+}
+.projects .project2 .text-project a{
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #FDC435;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+.projects .project2 .text-project a:hover{
+    background-color: black ;
+    color: #FDC435;
+}
+
+.projects .project3 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.projects .project3 img{
+    border-radius: 20px;
+}
+.projects .project3 .text-project {
+    
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+    letter-spacing: 0.3px
+ 
+}
+.projects .project3 .text-project a{
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #FDC435;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+.projects .project3 .text-project a:hover{
+    background-color: black ;
+    color: #FDC435;
+}
+
+.projects .project4 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.projects .project4 img{
+    border-radius: 20px;
+}
+.projects .project4 .text-project {
+    
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+    letter-spacing: 0.3px
+ 
+}
+.projects .project4 .text-project a{
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #FDC435;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+.projects .project4 .text-project a:hover{
+    background-color: black ;
+    color: #FDC435;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40vh;
+    align-items: center;
+}
+.contacts h2 a {
+    pointer-events: none;
+    cursor: default;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.contacts .text {
+    background-color: rgb(250, 248, 248);
+    padding: 30px;
+    border-radius: 30px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30vh;
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+    nav .dropdown-menu {
+        display: none;
+    }
+    .nav{
+        display: flex;
+        width: auto;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        margin-top: 20vh;
+    }
+    .home img {
+        width: 100%;
+    }
+    .about{
+        padding-top: 20vh;
+        display: flex;
+        width: auto;
+    }
+    .projects {
+        display: flex;
+        width: auto;
+    }
+    .footer {
+        display: flex;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    nav{
+        display: flex;
+        justify-content: space-between
+
+    }
+    nav .dropdown-menu {
+        display: block;
+        
+    }
+    nav .dropdown-menu ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0.01rem;
+        top: 23px;
+        background-color: #3d3d3d;
+        padding: 20px;
+        border-radius: 0 0 0 10%;
+    }
+    nav .dropdown-menu ul a:hover{
+        background-color: #FDC435;
+        color: black;
+        
+    }
+    nav .dropdown-menu a{
+        text-decoration: none;
+        color: #FDC435;
+        padding: 20px;
+
+    }
+    nav .navBar{
+        display: none;
+    }
+    nav .toggle-button{
+        display: flex;
+        position: fixed;
+        right: 15px;
+    }
+    .home{
+        display: flex;
+        
+        justify-content: center;
+        margin-top: 20vh;
+    }
+    .home img {
+        width: 100%;
+    }
+    .about{
+        padding-top: 20vh;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .about .card-foto{
+        margin-top: 40px;
+    }
+    .projects {
+        display: flex;
+        width: auto;
+    }
+    .projects .project1{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects .project2{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects .project3{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects .project4{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts .text{
+        
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+   
+}
